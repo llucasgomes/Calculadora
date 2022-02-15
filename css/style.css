@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&family=VT323&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*fundo*/
+
+.fundo {
+    background:linear-gradient(45deg,black,red,yellow,blue);
+    height: 100vh;
+    text-align: center;
+     
+}
+
+
+/*box calculadora*/
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute;
+    background-color:rgba(26, 11, 95, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    
+    
+   
+}
+/*Resultado*/
+p{
+    background-color: white;
+    margin: 20px;
+    width: 207px;
+    height: 30px;
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+h1{
+    font-family: 'Shizuru', cursive;
+    color: black;
+}
+/*Botoes*/
+button{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(24, 20, 20);
+    color: white;
+    cursor: pointer;
+    transition: left 1s ease;
+    border: none;
+    margin: 2px;
+    border-radius: 30%;
+}
+button:hover{
+    background-color: black;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
